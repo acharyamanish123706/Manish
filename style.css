@@ -1,0 +1,122 @@
+/* General Page Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #eef2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Card Container ID & Class Selectors */
+#business-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    border-top: 5px solid #1062fe;
+}
+
+/* Header Styling */
+.header {
+    margin-bottom: 20px;
+}
+
+#user-name {
+    color: #1a1a1a;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    color: #1062fe;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Details Section */
+.details-section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.info-badge {
+    background-color: #f0f4f8;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #4a5568;
+}
+
+.info-badge .label {
+    font-weight: 600;
+}
+
+/* Business Info Styling */
+.business-info {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 25px;
+}
+
+.business-info h2 {
+    font-size: 16px;
+    color: #2d3748;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-size: 13px;
+    color: #718096;
+    line-height: 1.5;
+}
+
+/* Action Buttons */
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.doc-btn {
+    background-color: #0f9d58;
+    color: #ffffff;
+}
+
+.doc-btn:hover {
+    background-color: #0b8043;
+}
+
+.github-btn {
+    background-color: #24292e;
+    color: #ffffff;
+}
+
+.github-btn:hover {
+    background-color: #000000;
+  }
